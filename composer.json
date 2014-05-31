@@ -1,6 +1,6 @@
 {
 	"name": "webulla/yii2-active_grid",
-	"description": "Yii 2 Active Grid extension",
+	"description": "Yii2 Active Grid extension",
 	"type": "yii2-extension",
 	"keywords": ["yii2", "extensions", "tabular input", "active grid"],
 	"authors": [
