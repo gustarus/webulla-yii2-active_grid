@@ -6,7 +6,7 @@
  * Time: 14:55
  */
 
-namespace wbl\grid\columns;
+namespace wbl\active_grid\columns;
 
 use Yii;
 use yii\grid\CheckboxColumn;

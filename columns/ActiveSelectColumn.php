@@ -5,14 +5,14 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace wbl\grid\columns;
+namespace wbl\active_grid\columns;
 
-use wbl\grid\columns\ActiveColumn;
+use wbl\active_grid\columns\ActiveColumn;
 use yii\helpers\Html;
 
 /**
  * Class ActiveSelectColumn
- * @package wbl\grid\columns
+ * @package wbl\active_grid\columns
  */
 class ActiveSelectColumn extends ActiveColumn {
 

@@ -6,7 +6,7 @@
  * Time: 20:56
  */
 
-namespace wbl\grid\widgets;
+namespace wbl\active_grid\widgets;
 
 use kartik\widgets\AssetBundle;
 

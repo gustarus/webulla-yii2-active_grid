@@ -5,14 +5,14 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace wbl\grid\columns;
+namespace wbl\active_grid\columns;
 
-use wbl\grid\columns\ActiveColumn;
+use wbl\active_grid\columns\ActiveColumn;
 use yii\helpers\Html;
 
 /**
  * Class ActiveInputColumn
- * @package wbl\grid\columns
+ * @package wbl\active_grid\columns
  */
 class ActiveInputColumn extends ActiveColumn {
 

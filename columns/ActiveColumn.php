@@ -5,9 +5,9 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace wbl\grid\columns;
+namespace wbl\active_grid\columns;
 
-use wbl\grid\widgets\ActiveGrid;
+use wbl\active_grid\widgets\ActiveGrid;
 use Yii;
 use yii\db\ActiveRecord;
 use yii\grid\DataColumn;
@@ -15,7 +15,7 @@ use yii\widgets\ActiveField;
 
 /**
  * Class ActiveInputColumn
- * @package wbl\grid\columns
+ * @package wbl\active_grid\columns
  */
 class ActiveColumn extends DataColumn {
 

@@ -5,11 +5,11 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace wbl\grid\columns;
+namespace wbl\active_grid\columns;
 
 /**
  * Class ActiveWidgetColumn
- * @package wbl\grid\columns
+ * @package wbl\active_grid\columns
  */
 class ActiveWidgetColumn extends ActiveColumn {
 

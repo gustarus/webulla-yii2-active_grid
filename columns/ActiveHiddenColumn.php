@@ -6,9 +6,9 @@
  * Time: 23:06
  */
 
-namespace wbl\grid\columns;
+namespace wbl\active_grid\columns;
 
-use wbl\grid\columns\ActiveColumn;
+use wbl\active_grid\columns\ActiveColumn;
 use yii\helpers\Html;
 
 class ActiveHiddenColumn extends ActiveColumn {

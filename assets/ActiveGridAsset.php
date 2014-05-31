@@ -6,7 +6,7 @@
  * Time: 20:56
  */
 
-namespace wbl\grid\assets;
+namespace wbl\active_grid\assets;
 
 use yii\web\AssetBundle;
 

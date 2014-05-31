@@ -6,11 +6,11 @@
  * Time: 1:02
  */
 
-namespace wbl\grid\widgets;
+namespace wbl\active_grid\widgets;
 
-use wbl\grid\assets\ActiveGridAsset;
-use wbl\grid\columns\ActiveHiddenColumn;
-use wbl\grid\columns\RowSelectColumn;
+use wbl\active_grid\assets\ActiveGridAsset;
+use wbl\active_grid\columns\ActiveHiddenColumn;
+use wbl\active_grid\columns\RowSelectColumn;
 use Yii;
 use yii\data\ArrayDataProvider;
 use yii\db\ActiveRecord;
@@ -42,7 +42,7 @@ class ActiveGrid extends GridView {
 	/**
 	 * @inheritdoc
 	 */
-	public $dataColumnClass = 'wbl\grid\columns\ActiveInputColumn';
+	public $dataColumnClass = 'wbl\active_grid\columns\ActiveInputColumn';
 
 
 	/**
