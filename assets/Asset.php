@@ -10,7 +10,7 @@ namespace wbl\active_grid\assets;
 
 use yii\web\AssetBundle;
 
-class ActiveGridAsset extends AssetBundle {
+class Asset extends AssetBundle {
 
 	/**
 	 * @inheritdoc

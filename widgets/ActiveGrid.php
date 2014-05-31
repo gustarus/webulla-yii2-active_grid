@@ -8,7 +8,7 @@
 
 namespace wbl\active_grid\widgets;
 
-use wbl\active_grid\assets\ActiveGridAsset;
+use wbl\active_grid\assets\Asset;
 use wbl\active_grid\columns\ActiveHiddenColumn;
 use wbl\active_grid\columns\RowSelectColumn;
 use Yii;
@@ -187,7 +187,7 @@ class ActiveGrid extends GridView {
 	public function run() {
 		$id = $this->options['id'];
 
-		ActiveGridAsset::register($this->getView());
+		Asset::register($this->getView());
 
 		$options = [
 			'emptyText' => Yii::t('app', $this->emptyText),
