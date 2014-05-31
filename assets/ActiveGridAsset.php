@@ -15,7 +15,7 @@ class ActiveGridAsset extends AssetBundle {
 	/**
 	 * @inheritdoc
 	 */
-	public $sourcePath = '@wbl/grid/public';
+	public $sourcePath = '@wbl/active_grid/public';
 
 	/**
 	 * @inheritdoc
